@@ -1,0 +1,401 @@
+body{
+    margin: o;
+    font-family: sans-serif;
+}
+
+.navbar-nav, a{
+  color: black !important;
+}
+
+a, href{
+  text-decoration: none;
+  color: #333;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+  }
+   
+  .cta-section{
+    background-image: url(photo/cloudimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+/* my hero section */
+.hero-section{
+  position: relative;
+  background-image: url(photo/cloudimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+
+/*html section*/
+/* FIND YOUR FLOW (INTRO SECTION) */
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url('photo/cloudimg.png') no-repeat center center/cover;
+  padding: 60px 30px;
+  color: white;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.colum1 {
+  flex: 1;
+  min-width: 280px;
+}
+
+.colum2 img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.head {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.head2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.colum1 p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+/* WHY PRACTICE SECTION */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 30px;
+  background-color: #f8f1e9;
+  gap: 30px;
+}
+
+.row-1 img {
+  flex: 1;
+  max-width: 70%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.row2 {
+  flex: 1;
+  min-width: 280px;
+}
+
+.row2 h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.row2 ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.row2 ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: linear-gradient(to right, #2d2d2d80, #1e1e1e80), url('photo/cloudimg.png') no-repeat center center/cover;
+  padding: 80px 20px;
+  color: white;
+}
+
+.hero-section h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* TESTIMONIALS  */
+.card-title i {
+  color: gold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card {
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 15px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #f8f1e9;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+
+
+
+/* classes html page */
+.classes {
+  background-color: rgb(248, 241, 233);
+  padding: 60px 15px;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 320px;
+  width: 100%;
+}
+
+
+.classes h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.classes p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: white;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .classes p {
+    padding: 0 15px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
+
+
+
+
+
+/* Style the form container */
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling the heading */
+.form-container h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+/* Styling the paragraph */
+.form-container p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form input styling */
+.form-container input, .form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.form-container input:focus, .form-container textarea:focus {
+  border-color: #007BFF;
+}
+
+/* Style the submit button */
+.form-container button {
+  background-color: rgb(202, 139, 94);
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.form-container button:hover {
+  background-color: rgb(240, 208, 164);
+}
+
+/*pricing section*/
+
+  .price h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .card1 {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .pack {
+    background-color: #f0d0a4;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .para {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0;
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card-text {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  .btn-light {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .btn-light:hover {
+    background-color: #333;
+    color: white;
+    border-color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .card-group {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card1 {
+      max-width: 90%;
+    }
+  }
+
